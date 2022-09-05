@@ -1,7 +1,8 @@
 {
-  "name": "market-react-next",
+  "name": "market-react-next-TP",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "Description": "Trabalho desenvolvido para o TP do Bootcamp React III",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +10,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/material": "^5.10.3",
+    "axios": "^0.27.2",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
